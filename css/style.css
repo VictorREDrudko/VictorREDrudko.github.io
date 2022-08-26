@@ -1,0 +1,237 @@
+*{padding:0; margin:0; border:0;}
+*,*:before,*::after {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active {outline: none;}
+a:focus,a:active {outline: none;}
+nav,footer,head,aside {display: block;}
+html,body {height: 100%;width: 100%;font-size: 100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-mos-focus-inner {padding: 0;border: 0;}
+a,a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: 400;}
+
+img{
+  width: 300px;
+}
+
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  max-width: 1180px;
+  margin: 0px auto;
+}
+.content{
+  flex: 1 1 auto;
+}
+.hi{
+  background-color: rgb(90, 87, 87);
+  padding: 10px 0;
+}
+.hi_row{
+  display: flex;
+  justify-content: space-between;
+  }
+.hi_body{
+  color: rgb(253, 253, 253);
+  padding: 0px 30px 0px 0px;
+}
+.hi_title{
+  text-shadow: 1px 1px 0 rgb(5, 5, 5);
+  font-size: 50px;
+  margin: 0px 0px 40px 0px;
+}
+.hi_list li{
+  background: url("../img/Metka.png") 0px -3px no-repeat;
+  text-shadow: 1px 1px 0 rgba(5, 5, 5, 0.49);
+  font-size: 20px;
+  line-height: 22px;
+  padding: 0px 0px 20px 35px;
+  margin: 0px 0px 15px 0px;
+}
+.hi_list li:last-child{
+  margin: 0;
+}
+.hi_image{
+  width: 450px;
+}
+
+.title{
+  color: rgb(7, 153, 36);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.son{
+  margin: 10px 0;
+}
+.son_row{
+  display: flex;
+}
+.son_image{
+  flex: 0 0 430px;
+}
+.son_image img{
+  max-width: 50%;
+}
+.son_body{
+  flex: 1 1 auto;
+  padding: 0px 0px 0px 38px;
+}
+.son_title{
+  margin: 0px 0px 33px 0px;
+}
+.son_text p{
+   margin: 0px 0px 25px 0px;
+  color: rgb(42, 5, 107);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.columns{
+  background-color: rgb(176, 179, 181);
+  padding: 50px 0px 20px 0px;
+}
+.columns_title{
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.columns_row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -8px;
+}
+.columns_column{
+  padding: 0px 8px;
+  flex: 0 1 50%;
+  margin: 0px 0px 30px 0px;
+}
+.columns_item{}
+.item{}
+.item_row{
+  display: flex;
+}
+.item_image{
+  flex: 0 0 200px;
+}
+.item_body{
+  flex: 1 1 auto;
+  padding: 0px 0px 0px 15px;
+}
+.item_title{
+  color: rgb(34, 1, 64);
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0px 0px 13px 0px;
+}
+.item_text{
+  color: rgb(5, 60, 8);
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+
+.vertical{
+  padding: 50px 0px;
+}
+.vertical_title{
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.vertical_body{
+  max-width: 990px;
+  margin: 0px auto;
+}
+.vertical_row{
+  display: flex;
+  margin: 0px -22.5px;
+}
+.vertical_column{
+  padding: 0px 22.5px;
+  flex: 0 1 33.333%;
+  display: flex;
+}
+.vertical_item{
+  background-color: rgb(78, 76, 76);
+  color: rgb(252, 252, 252);
+  padding: 0px 0px 20px 0px;
+  border-radius: 5px;
+  border: 1px solid rgb(78, 76, 76);
+  display: flex;
+  flex-direction: column;
+}
+.vertical_subtitle{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 0px;
+  font-size: 24px;
+}
+.vertical_label{
+  background-color: #fff;
+  color: rgb(55, 2, 2);
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 40px;
+}
+.vertical_text{
+  padding: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  flex: 1 1 auto;
+}
+.vertical_text{
+  margin: 0px 0px 15px 0px;
+}
+.vertical_text p:last-child{
+  margin: 0px;
+}
+.vertical_btn{
+  margin: 0px 20px;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(24, 66, 66);
+  font-size: 18px;
+  background-color: rgb(225, 224, 224);
+}
+
+
+
+
+.footer{
+  background-color: rgb(111, 109, 109);
+}
+.footer_row{
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+}
+.footer_text{
+  color: rgb(2, 2, 2);
+  font-size: 14px;
+  letter-spacing: 0.3;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
